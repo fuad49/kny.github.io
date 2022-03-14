@@ -1,0 +1,116 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/Bg1.jpg');
+    /* height: 1080px; */
+    font-family: 'Merriweather', serif;
+}
+.left
+{
+    display: inline-block;
+    /* border: 2px groove rgb(8, 2, 39); */
+    position: absolute;
+     left: 60px;
+    top: 22px;
+}
+.left div
+{
+    text-align: center;
+    line-height: 19px;
+
+}
+.mid
+{
+    border: 2px groove rgb(102 99 112);
+    display: block;
+    width: 40%;
+    margin: 22px auto;
+    border-radius: 10px;
+}
+.right
+{
+    /* border: 2px groove rgb(158, 145, 221); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 22px;
+}
+.left img
+{
+    width: 87px;
+    text-align: center;
+}
+.btn
+{
+
+    margin: 15px 9px;
+    color: white;
+    background-color: #d39c9c;
+    padding: 9px 20px;
+    border: 2px groove rgb(224, 96, 96);
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+.btn:hover
+{
+    color: grey;
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+    
+}
+.navbar li a:hover, .navbar li a.active
+{
+   /* text-decoration: underline; */
+   color: grey;
+}
+.container
+{
+    border: 2px solid rgb(252, 252, 255);
+    margin: 118px 61px;
+    padding: 25px 20px;
+    width: 25%;
+    border-radius: 10px;
+}
+.ep
+{
+    color: white;
+    text-decoration: none;
+}
+.ep:hover
+{
+    /* text-decoration: underline; */
+    color: grey;
+}
+.container1
+{
+    border: 2px solid rgb(252, 252, 255);
+    margin: -102px 61px;
+    padding: 25px 20px;
+    width: 25%;
+    border-radius: 10px; 
+}
+.read
+{
+    color: white;
+    text-decoration: none;
+}
+.read:hover
+{
+    /* text-decoration: underline; */
+    color: grey;
+}
